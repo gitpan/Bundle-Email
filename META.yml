@@ -1,5 +1,5 @@
 name: Bundle-Email
-version: 0.02
+version: 0.03
 abstract: Installs the main set of Email:: modules
 author: Adam Kennedy<cpan@ali.as>
 license: unknown
@@ -35,4 +35,4 @@ requires:
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.35
+generated_by: Module::Install version 0.36
