@@ -1,5 +1,5 @@
 name: Bundle-Email
-version: 0.01
+version: 0.02
 abstract: Installs the main set of Email:: modules
 author: Adam Kennedy<cpan@ali.as>
 license: unknown
@@ -24,6 +24,7 @@ requires:
   Email::MIME::Creator: 0
   Net::SMTP: 0
   Email::Send: 0
+  Email::Send::Test: 0
   Email::FolderType: 0
   Email::FolderType::Net: 0
   Email::LocalDelivery: 0

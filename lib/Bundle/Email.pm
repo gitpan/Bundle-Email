@@ -4,7 +4,7 @@ use strict;
 
 use vars qw{$VERSION};
 BEGIN {
-	$VERSION = '0.01';
+	$VERSION = '0.02';
 }
 
 1;
@@ -50,6 +50,8 @@ Email::MIME::Creator     - Create MIME emails
 Net::SMTP                - For Email::Send::SMTP, the most common after Email::Send::Sendmail
 
 Email::Send              - Send emails
+
+Email::Send::Test        - Testing applications that use Email::Send
 
 Email::FolderType        - Determine the type of a mail folder
 

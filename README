@@ -36,6 +36,8 @@ CONTENTS
 
     Email::Send - Send emails
 
+    Email::Send::Test - Testing applications that use Email::Send
+
     Email::FolderType - Determine the type of a mail folder
 
     Email::FolderType::Net - Determine the type of mail folder for Net-based

@@ -21,6 +21,7 @@ requires       ( 'Email::MIME::Modifier'    => '0'     );
 requires       ( 'Email::MIME::Creator'     => '0'     );
 requires       ( 'Net::SMTP'                => '0'     );
 requires       ( 'Email::Send'              => '0'     );
+requires       ( 'Email::Send::Test'        => '0'     );
 requires       ( 'Email::FolderType'        => '0'     );
 requires       ( 'Email::FolderType::Net'   => '0'     );
 requires       ( 'Email::LocalDelivery'     => '0'     );
