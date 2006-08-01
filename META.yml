@@ -1,38 +1,39 @@
-name: Bundle-Email
-version: 0.03
-abstract: Installs the main set of Email:: modules
-author: Adam Kennedy<cpan@ali.as>
-license: unknown
-distribution_type: module
+abstract: 'Installs the main set of Email:: modules'
+author: 'Adam Kennedy<cpan@ali.as>'
 build_requires:
   File::Spec: 0.82
   Test::More: 0.47
-requires:
-  perl: 5.005
-  Email::Address: 0
-  Email::MIME::Encodings: 0
-  Email::MIME::ContentType: 0
-  Email::MessageID: 0
-  Email::Simple: 0
-  Email::Date: 0
-  Module::Pluggable: 0
-  Email::Abstract: 0
-  Email::MIME: 0
-  Email::Simple::Headers: 0
-  Email::Simple::Creator: 0
-  Email::MIME::Modifier: 0
-  Email::MIME::Creator: 0
-  Net::SMTP: 0
-  Email::Send: 0
-  Email::Send::Test: 0
-  Email::FolderType: 0
-  Email::FolderType::Net: 0
-  Email::LocalDelivery: 0
-  Email::Folder: 0
-  File::Type: 0
-  File::Slurp: 0
-  Email::Stuff: 0
+distribution_type: module
+generated_by: Module::Install version 0.62
+license: unknown
+name: Bundle-Email
 no_index:
   directory:
     - inc
-generated_by: Module::Install version 0.36
+    - t
+requires:
+  Email::Abstract: 0
+  Email::Address: 0
+  Email::Date: 0
+  Email::Folder: 0
+  Email::FolderType: 0
+  Email::FolderType::Net: 0
+  Email::LocalDelivery: 0
+  Email::MIME: 0
+  Email::MIME::ContentType: 0
+  Email::MIME::Creator: 0
+  Email::MIME::Encodings: 0
+  Email::MIME::Modifier: 0
+  Email::MessageID: 0
+  Email::Send: 0
+  Email::Send::Test: 0
+  Email::Simple: 0
+  Email::Simple::Creator: 0
+  Email::Simple::Headers: 0
+  Email::Stuff: 0
+  File::Slurp: 0
+  File::Type: 0
+  Module::Pluggable: 0
+  Net::SMTP: 0
+  perl: 5.005
+version: 0.040
