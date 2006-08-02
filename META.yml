@@ -1,17 +1,17 @@
-abstract: 'Installs the main set of Email:: modules'
-author: 'Adam Kennedy<cpan@ali.as>'
-build_requires:
+abstract: "Installs the main set of Email:: modules"
+author: Ricardo SIGNES <rjbs@cpan.org>
+build_requires: 
   File::Spec: 0.82
   Test::More: 0.47
 distribution_type: module
 generated_by: Module::Install version 0.62
-license: unknown
+license: perl
 name: Bundle-Email
-no_index:
-  directory:
+no_index: 
+  directory: 
     - inc
     - t
-requires:
+requires: 
   Email::Abstract: 0
   Email::Address: 0
   Email::Date: 0
@@ -29,11 +29,10 @@ requires:
   Email::Send::Test: 0
   Email::Simple: 0
   Email::Simple::Creator: 0
-  Email::Simple::Headers: 0
   Email::Stuff: 0
   File::Slurp: 0
   File::Type: 0
   Module::Pluggable: 0
   Net::SMTP: 0
   perl: 5.005
-version: 0.040
+version: 0.042
