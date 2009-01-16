@@ -1,17 +1,22 @@
-abstract: "Installs the main set of Email:: modules"
-author: Ricardo SIGNES <rjbs@cpan.org>
-build_requires: 
+---
+abstract: 'Installs the main set of Email:: modules'
+author:
+  - 'Ricardo SIGNES <rjbs@cpan.org>'
+build_requires:
   File::Spec: 0.82
   Test::More: 0.47
 distribution_type: module
-generated_by: Module::Install version 0.64
+generated_by: 'Module::Install version 0.77'
 license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: 1.4
 name: Bundle-Email
-no_index: 
-  directory: 
+no_index:
+  directory:
     - inc
     - t
-requires: 
+requires:
   Email::Abstract: 0
   Email::Address: 0
   Email::Date: 0
@@ -34,5 +39,7 @@ requires:
   File::Type: 0
   Module::Pluggable: 0
   Net::SMTP: 0
-  perl: 5.005
-version: 0.043
+resources:
+  license: http://dev.perl.org/licenses/
+  repository: http://github.com/rjbs/bundle-email
+version: 0.044
